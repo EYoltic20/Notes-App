@@ -11,6 +11,10 @@
 		2EA49DDF27E0EE74002BC0C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA49DDE27E0EE74002BC0C5 /* ContentView.swift */; };
 		2EA49DE127E0EE75002BC0C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA49DE027E0EE75002BC0C5 /* Assets.xcassets */; };
 		2EA49DE427E0EE75002BC0C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA49DE327E0EE75002BC0C5 /* Preview Assets.xcassets */; };
+		2EA49DED27E0F220002BC0C5 /* Item_model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA49DEC27E0F220002BC0C5 /* Item_model.swift */; };
+		2EA49DEF27E0F3C9002BC0C5 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA49DEE27E0F3C9002BC0C5 /* ListRowView.swift */; };
+		2EA49DF227E0F5F7002BC0C5 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA49DF127E0F5F7002BC0C5 /* ListViewModel.swift */; };
+		2EA49DF427E10145002BC0C5 /* AddNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA49DF327E10145002BC0C5 /* AddNotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		2EA49DDE27E0EE74002BC0C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2EA49DE027E0EE75002BC0C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EA49DE327E0EE75002BC0C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2EA49DEC27E0F220002BC0C5 /* Item_model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item_model.swift; sourceTree = "<group>"; };
+		2EA49DEE27E0F3C9002BC0C5 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		2EA49DF127E0F5F7002BC0C5 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		2EA49DF327E10145002BC0C5 /* AddNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				2EA49DDC27E0EE74002BC0C5 /* To_DoListApp.swift */,
-				2EA49DDE27E0EE74002BC0C5 /* ContentView.swift */,
+				2EA49DF027E0F598002BC0C5 /* ViewModel */,
+				2EA49DEB27E0F1F4002BC0C5 /* Models */,
+				2EA49DEA27E0EEA4002BC0C5 /* Views */,
 				2EA49DE027E0EE75002BC0C5 /* Assets.xcassets */,
 				2EA49DE227E0EE75002BC0C5 /* Preview Content */,
 			);
@@ -65,6 +75,32 @@
 				2EA49DE327E0EE75002BC0C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2EA49DEA27E0EEA4002BC0C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2EA49DDE27E0EE74002BC0C5 /* ContentView.swift */,
+				2EA49DEE27E0F3C9002BC0C5 /* ListRowView.swift */,
+				2EA49DF327E10145002BC0C5 /* AddNotes.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2EA49DEB27E0F1F4002BC0C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2EA49DEC27E0F220002BC0C5 /* Item_model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2EA49DF027E0F598002BC0C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2EA49DF127E0F5F7002BC0C5 /* ListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA49DF227E0F5F7002BC0C5 /* ListViewModel.swift in Sources */,
+				2EA49DF427E10145002BC0C5 /* AddNotes.swift in Sources */,
 				2EA49DDF27E0EE74002BC0C5 /* ContentView.swift in Sources */,
 				2EA49DDD27E0EE74002BC0C5 /* To_DoListApp.swift in Sources */,
+				2EA49DED27E0F220002BC0C5 /* Item_model.swift in Sources */,
+				2EA49DEF27E0F3C9002BC0C5 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
