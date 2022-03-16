@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E1B7F0227E2464700E8F126 /* NoteEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1B7F0127E2464700E8F126 /* NoteEmptyView.swift */; };
 		2EA49DDD27E0EE74002BC0C5 /* To_DoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA49DDC27E0EE74002BC0C5 /* To_DoListApp.swift */; };
 		2EA49DDF27E0EE74002BC0C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA49DDE27E0EE74002BC0C5 /* ContentView.swift */; };
 		2EA49DE127E0EE75002BC0C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA49DE027E0EE75002BC0C5 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E1B7F0127E2464700E8F126 /* NoteEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEmptyView.swift; sourceTree = "<group>"; };
 		2EA49DD927E0EE74002BC0C5 /* To_DoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = To_DoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA49DDC27E0EE74002BC0C5 /* To_DoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_DoListApp.swift; sourceTree = "<group>"; };
 		2EA49DDE27E0EE74002BC0C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				2EA49DDE27E0EE74002BC0C5 /* ContentView.swift */,
 				2EA49DEE27E0F3C9002BC0C5 /* ListRowView.swift */,
 				2EA49DF327E10145002BC0C5 /* AddNotes.swift */,
+				2E1B7F0127E2464700E8F126 /* NoteEmptyView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				2EA49DF427E10145002BC0C5 /* AddNotes.swift in Sources */,
 				2EA49DDF27E0EE74002BC0C5 /* ContentView.swift in Sources */,
 				2EA49DDD27E0EE74002BC0C5 /* To_DoListApp.swift in Sources */,
+				2E1B7F0227E2464700E8F126 /* NoteEmptyView.swift in Sources */,
 				2EA49DED27E0F220002BC0C5 /* Item_model.swift in Sources */,
 				2EA49DEF27E0F3C9002BC0C5 /* ListRowView.swift in Sources */,
 			);

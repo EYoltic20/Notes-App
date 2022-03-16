@@ -10,6 +10,7 @@ struct Item_model:Identifiable,Codable{//Identifiable to identify and codable to
     var id : String = UUID().uuidString // Creates an UUID in format string
     let title : String
     let isCompleted : Bool
+    
     func updateCompletition() ->Item_model{
         return Item_model(id : id , title: title, isCompleted: !isCompleted)
     }

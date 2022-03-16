@@ -12,7 +12,10 @@ struct ListRowView: View {
     var body: some View {
         HStack{
             Image(systemName: !item.isCompleted ? "circle.dashed": "circle.dashed.inset.filled")
+                .foregroundColor(Color(!item.isCompleted ? .red : .green))
             Text(item.title)
+                .font(.body)
+                
         }
     }
 }

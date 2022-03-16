@@ -7,6 +7,14 @@
 
 import Foundation
 import SwiftUI
+
+//CRUD Functions
+/*
+ Create
+ Read
+ Update
+ Delete
+ */
 class ListViewModel:ObservableObject{
     @Published var items:[Item_model] = []{
     didSet{
@@ -39,5 +47,12 @@ class ListViewModel:ObservableObject{
     func addItem(title: String){
         let newItem = Item_model(title: title, isCompleted: false)
         items.append(newItem)
+    }
+    
+    func moveItem(from:IndexSet,to:Int){
+        items.move(fromOffsets: from, toOffset: to)
+    }
+    func deleteItem(index:IndexSet){
+        items.remove(atOffsets: index)
     }
 }
